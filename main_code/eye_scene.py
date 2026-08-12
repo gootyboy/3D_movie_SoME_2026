@@ -44,8 +44,8 @@ class EyeScene(Scene):
         tree.scale(1.25)
 
         both_eye_text = Text("Both Eyes", font_size=DEFAULT_FONT_SIZE * 2, gradient=[RED_C, RED_E]).to_edge(UP)
-        left_eye_text = Text("Left Eye", font_size=DEFAULT_FONT_SIZE * 2, gradient=[RED_C, RED_E]).to_edge(UP)
-        right_eye_text = Text("Right Eye", font_size=DEFAULT_FONT_SIZE * 2, gradient=[RED_C, RED_E]).to_edge(UP)
+        left_eye_text = Text("Right Eye", font_size=DEFAULT_FONT_SIZE * 2, gradient=[RED_C, RED_E]).to_edge(UP)
+        right_eye_text = Text("Left Eye", font_size=DEFAULT_FONT_SIZE * 2, gradient=[RED_C, RED_E]).to_edge(UP)
         layered_eye_text = Text("Left + Right Eye", font_size=DEFAULT_FONT_SIZE * 2, gradient=[RED_C, RED_E]).to_edge(UP)
 
         left_tree = tree.copy().shift(LEFT / 6)
